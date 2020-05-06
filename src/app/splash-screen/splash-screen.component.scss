@@ -1,0 +1,98 @@
+.splash {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+
+div.logo {
+  position: relative;
+}
+
+img
+{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  transform: translate(50%, -25%);
+}
+
+svg {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  transform: translate(50%, -25%) rotate(30deg);
+  animation: glow 1.5s linear alternate;
+  filter: blur(0px);
+  z-index: 0;
+  fill: gold;
+  transition: .2s;
+}
+
+@keyframes glow {
+  from,
+  to {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(80px);
+  }
+}
+
+img:hover+svg {
+  fill: rgba(244, 66, 232, 1);
+}
+
+// .content {
+//     position: relative;
+//     overflow: hidden;
+//     height: 50vh;
+//     color: gold;
+//     vertical-align: middle;
+//     text-align: center;
+//     top: 25%;
+// }
+
+// .content img {
+//   width: 50%;
+//   height: 50%;
+// }
+
+// .glow {
+//   position: absolute;
+//   left: 25%;
+//   top: 0;
+
+//   transform: scale(1);
+//   -webkit-transform: scale(1);
+//   filter: brightness(0) invert(1) blur(3px);
+//   -webkit-filter: brightness(0) invert(1) blur(3px);
+//   opacity:1;
+
+//   -webkit-animation: glow 3s infinite; /* Safari 4+ */
+//   -moz-animation:    glow 3s infinite; /* Fx 5+ */
+//   -o-animation:      glow 3s infinite; /* Opera 12+ */
+//   animation:         glow 3s infinite; /* IE 10+, Fx 29+ */
+// }
+
+// @-webkit-keyframes glow {
+//   0%   { opacity: 0; }
+//   50% { opacity: 0.5; }
+//   100% { opacity: 0; }
+// }
+// @-moz-keyframes glow {
+//   0%   { opacity: 0; }
+//   50% { opacity: 0.5; }
+//   100% { opacity: 0; }
+// }
+// @-o-keyframes glow {
+//   0%   { opacity: 0; }
+//   50% { opacity: 0.5; }
+//   100% { opacity: 0; }
+// }
+// @keyframes glow {
+//   0%   { opacity: 0; }
+//   50% { opacity: 1; }
+//   100% { opacity: 0; }
+// }
