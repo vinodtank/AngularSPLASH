@@ -1,8 +1,10 @@
-<img src="https://github.com/vinodtank/angular-splash-screen/blob/master/src/assets/splash/splash-logo.png?raw=true" width="64" height="64" />
+<img src="https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/splash/splash-logo.png?raw=true" width="64" height="64" />
 
 # Angular SPLASH
 
-Angular 9.1.4 startup template with basis features for kick start.
+Angular 9.1.4 startup template with minimal features for kick start.
+
+<img src="https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/loading.png?raw=true" />
 
 ## Installation
 
@@ -12,7 +14,13 @@ After download the **AngularSPLASH**, use the package manager to install node mo
 npm install
 ```
 
-## Components usage
+## Components
+
+### 1. ![Internet down detector](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/loading.png?raw=true) Spalsh Screen
+
+### 2. ![Internet down detector](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/wi-fi.png?raw=true) Internet down detector
+
+## usage
 
 1. **Splash Screen**
     * Change or update `splash-logo.png` in **assets/splash**
