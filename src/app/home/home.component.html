@@ -1,7 +1,5 @@
-<div *ngIf="!splash">
+<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container animated fadeIn delay-2s">
   <button (click)="toggle()">Click</button>
-  <div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
-    <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
-    {{ isOpen }}
-  </div>
+  <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+  {{ isOpen }}
 </div>

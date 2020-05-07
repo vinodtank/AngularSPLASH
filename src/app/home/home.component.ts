@@ -1,4 +1,4 @@
-import { Component, ComponentFactoryResolver, ViewContainerRef, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {
   trigger,
   state,
@@ -33,29 +33,12 @@ import {
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  splash: boolean = true;
+  public isOnline: boolean = navigator.onLine;
 
-  constructor(
-    private viewContainerRef: ViewContainerRef,
-    private cfr: ComponentFactoryResolver
-  ) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.loadSplashScreen();
-
-    setTimeout(() => {
-      this.splash = false;
-    }, 3000);
-  }
-
-  async loadSplashScreen() {
-    this.viewContainerRef.clear();
-    const { SplashScreenComponent } = await import('../splash-screen/splash-screen.component');
-    this.viewContainerRef.createComponent(
-      this.cfr.resolveComponentFactory(SplashScreenComponent)
-    );
-  }
-
+  ngOnInit(): void { }
+  
   isOpen = true;
 
   toggle() {

@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
+import { OnlineStatusComponent } from './components/online-status/online-status.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SplashScreenComponent
+    SplashScreenComponent,
+    OnlineStatusComponent
   ],
   imports: [
     AppRoutingModule,

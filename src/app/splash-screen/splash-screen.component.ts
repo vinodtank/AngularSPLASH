@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-splash-screen',
+  selector: 'splash-screen',
   templateUrl: './splash-screen.component.html',
   styleUrls: ['./splash-screen.component.scss']
 })
@@ -13,6 +13,6 @@ export class SplashScreenComponent implements OnInit {
   ngOnInit(): void { 
     setTimeout(() => {
       this.hide = true;
-    }, 3000);
+    }, 1000);
   }
 }

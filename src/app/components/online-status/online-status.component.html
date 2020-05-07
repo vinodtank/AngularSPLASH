@@ -1,0 +1,7 @@
+<div *ngIf="connectionStatus === 'online'" class="box online">
+  <span>{{connectionStatusMessage}}</span>
+</div>
+
+<div *ngIf="connectionStatus === 'offline'" class="box offline animated fadeIn faster">
+  <span>{{connectionStatusMessage}}</span>
+</div>
