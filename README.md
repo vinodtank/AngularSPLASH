@@ -6,6 +6,8 @@ Angular 9.1.4 startup template with minimal features for kick start.
 
 ![Splash Screen](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/loading.png?raw=true) ![Internet down detector](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/wi-fi.png?raw=true)
 
+![Video](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/output/output.gif?raw=true)
+
 ## Installation
 
 After download the **AngularSPLASH**, use the package manager to install node modules.
