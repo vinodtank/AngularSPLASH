@@ -4,7 +4,7 @@
 
 Angular 9.1.4 startup template with minimal features for kick start.
 
-<img src="https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/loading.png?raw=true" />
+![Splash Screen](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/loading.png?raw=true) ![Internet down detector](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/wi-fi.png?raw=true)
 
 ## Installation
 
@@ -16,17 +16,21 @@ npm install
 
 ## Components
 
-### 1. ![Internet down detector](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/loading.png?raw=true) Spalsh Screen
+### 1. ![Splash Screen](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/loading.png?raw=true)Spalsh Screen
 
 ### 2. ![Internet down detector](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/wi-fi.png?raw=true) Internet down detector
 
-## usage
+## Usage
 
 1. **Splash Screen**
     * Change or update `splash-logo.png` in **assets/splash**
 
 2. **Internet Down Detector**
     * Modify the styles of `online-status.components.scss` as per your project theme
+
+## Upcoming Feature
+
+### 1. ![Night Mode support](https://github.com/vinodtank/AngularSPLASH/blob/master/src/assets/icons/dark-theme.png?raw=true) Dark mode theme
 
 ## Contributing
 
