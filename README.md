@@ -14,7 +14,7 @@ npm install
 
 ## Components usage
 
-1. **Splash**
+1. **Splash Screen**
     * Change or update `splash-logo.png` in **assets/splash**
 
 2. **Internet Down Detector**
@@ -31,4 +31,5 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 Will be happy to see used in your live project.
+
 https://github.com/vinodtank

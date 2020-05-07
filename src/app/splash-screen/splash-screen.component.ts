@@ -13,6 +13,6 @@ export class SplashScreenComponent implements OnInit {
   ngOnInit(): void { 
     setTimeout(() => {
       this.hide = true;
-    }, 1000);
+    }, 2000);
   }
 }
